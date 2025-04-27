@@ -50,7 +50,7 @@ This project reflects my interest in using data engineering to analyze public in
 
 ---
 
-## Future Work (Optional Ideas)
+## Future Work
 - Connect the database to a FastAPI server or a Streamlit dashboard for live data exploration.
 - Visualize trends in Life Expectancy or Immunization Coverage.
 - Expand analysis to additional countries or indicators.
