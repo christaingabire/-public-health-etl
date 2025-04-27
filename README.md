@@ -41,11 +41,12 @@ This project reflects my interest in using data engineering to analyze public in
     - Saved the cleaned data to a `.csv` file.
     - Loaded the final data into an SQLite database table (`public_health_indicators`).
 
-
+4. **Query**:
+    - Wrote and ran SQL queries to analyze life expectancy immunization coverage, and maternal mortality trends over time.
 
 ## Project Folder Structure
 
-/Public Social Program ETL/ ├── data/ │ ├── Health Nutrition and Population Statistics.json │ ├── HNP_StatsEXCEL.xlsx │ ├── hnp_data_raw.csv │ ├── hnp_data_cleaned.csv │ ├── health_data.db ├── main.py ├── load.py ├── README.md
+/Public Social Program ETL/ ├── data/ │ ├── Health Nutrition and Population Statistics.json │ ├── HNP_StatsEXCEL.xlsx │ ├── hnp_data_raw.csv │ ├── hnp_data_cleaned.csv │ ├── health_data.db ├── main.py ├── load.py ├── query.py ├── README.md
 
 
 ---
@@ -54,7 +55,7 @@ This project reflects my interest in using data engineering to analyze public in
 - Connect the database to a FastAPI server or a Streamlit dashboard for live data exploration.
 - Visualize trends in Life Expectancy or Immunization Coverage.
 - Expand analysis to additional countries or indicators.
-- Practice automating the ETL process using Airflow.
+- Automate ETL and querying pipeline with workflow tools (e.g., Apache Airflow).
 
 
 
