@@ -44,6 +44,33 @@ This project reflects my interest in using data engineering to analyze public in
 4. **Query**:
     - Wrote and ran SQL queries to analyze life expectancy immunization coverage, and maternal mortality trends over time.
 
+
+## Visual Summaries**
+1. **Total Records**
+![Total Records Card](plots/total_records_card.png)
+
+2. **Records per Country**
+![Records per Country](plots/records_per_country.png)
+
+3. **Average Life Expectancy in 2020**
+![Average Life Expectancy 2020](plots/life_expectancy_2020.png)
+
+4. **Life Expectancy Trends (1960–2020)**
+![Life Expectancy Trends](plots/life_expectancy_trends.png)
+
+5. **Immunization Trends (1980–2020)**
+![Immunization Trends](plots/immunization_trends.png)
+
+6. **Maternal Mortality Trends (1990–2020)**
+![Maternal Mortality Trends](plots/maternal_mortality_trends.png)
+
+7. **Maternal Mortality Changes (1990–2020)**
+![Maternal Mortality Changes](plots/maternal_mortality_changes.png)
+
+8. **Top Immunization Country (2020)**
+![Top Immunization Country Card](plots/top_immunization_card.png)
+
+
 ## Project Folder Structure
 
 /Public Social Program ETL/ ├── data/ │ ├── Health Nutrition and Population Statistics.json │ ├── HNP_StatsEXCEL.xlsx │ ├── hnp_data_raw.csv │ ├── hnp_data_cleaned.csv │ ├── health_data.db ├── main.py ├── load.py ├── query.py ├── README.md
